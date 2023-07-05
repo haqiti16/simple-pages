@@ -1,0 +1,27 @@
+@use "../custom" as *;
+.menu {
+    background: rgba(#2B3DEC, 0.1);
+    min-height: 140px;
+    ul{
+        width: 248px;  
+        li{
+            padding: 0 0.7rem;
+            a{
+                color: var(--light-black, #373F41);
+                text-transform: capitalize;
+                line-height: 18px;
+                letter-spacing: 0.2px;
+                font-weight: 600;
+                font-size: 14px;
+                font-family: Mulish;
+                font-style: normal;
+            }
+            a.active{
+                color: #2B3DEC !important;
+            }
+            a:hover{
+                color: #2B3DEC !important;
+            }
+        }
+    }
+}

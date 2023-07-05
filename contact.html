@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your Title</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg menu shadow ">
+        <section class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.png" alt="logo" style="max-height: 32px; max-width: 148px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <section class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="service.html">Service</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" href="#">Contact</a>
+                </li>
+            </ul>
+            </section>
+        </section>
+    </nav>
+
+    <section id="home" class="intro-section">
+        <section class="container">
+            <section class="row align-items-center">
+                <section class="col-md-6 intros">
+                    <h1 class="display-2">
+                        <span class="display-2--title lh-md">
+                            We're here to help.
+                        </span>
+                        <span class="display-2--description lh-md">
+                            Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                        </span>
+                    </h1>
+                    <a type="button" href="#" class="display-2--button">
+                        Contact Us
+                    </a>
+                </section>
+                <section class="col-md-6 intros text-end">
+                    <img src="assets/images/Tekengebied2.png" alt="intro" class="img-fluid">
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <section id="contact-form-section" class="contact-form-section">
+        <section class="container">
+            <section class="row text-center mt-3 mb-3">
+                <h1 class="fw-bold mb-3">Contact Form</h1>
+            </section>
+            <section class="row">
+                <section class="contact-form-group d-flex flex-column align-items-center">
+                    <section class="contact-form-input w-50">
+                        <form>
+                            <div class="form-group mt-3">
+                              <label for="name">Name</label>
+                              <input type="text" class="form-control" id="name" name="name">
+                            </div>
+                            <div class="form-group mt-3">
+                              <label for="email">Email Adress</label>
+                              <input type="email" class="form-control" id="email" name="email">
+                            </div>
+                            <div class="form-group mt-3">
+                              <label for="phone">Phone Number</label>
+                              <input type="tel" pattern="[0-9]+" minlength="10" class="form-control" id="phone" name="phone">
+                            </div>
+                            <div class="form-group mt-3">
+                              <label for="message">Your Message</label>
+                              <textarea class="form-control" id="message" rows="6" name="message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary mt-3 contact-form-button">Submit</button>
+                        </form>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <footer class="footer">
+        <section class="container text-center">
+            <small class="footer--title">&copy; Your Company. All rights reserved.</small>
+        </section>
+    </footer>
+    
+    <script src="assets/js/bootstrap.bundle.js"></script>
+</body>
+</html>
